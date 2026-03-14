@@ -142,13 +142,29 @@ margin-bottom: 10px;
 }
 /* ---------- ideology section ---------- */
 
+
+.ideology {
+
+padding: 120px 80px 80px 80px;
+
+position: relative;
+
+overflow: hidden;
+
+}
+
+
+
 .ideology-title {
 
 position: relative;
 
-margin-bottom: 60px;
+margin-bottom: 80px;
+
+padding-top: 60px;
 
 }
+
 
 
 /* big ghost word */
@@ -157,10 +173,10 @@ margin-bottom: 60px;
 
 position: absolute;
 
-top: -40px;
+top: 0;
 left: 0;
 
-font-size: 160px;
+font-size: 140px;
 
 font-weight: 700;
 
@@ -173,19 +189,23 @@ pointer-events: none;
 }
 
 
+
 /* main title */
 
 .title-main {
 
 display: block;
 
-font-size: 90px;
+font-size: 80px;
 
 font-weight: 600;
 
 letter-spacing: 2px;
 
+margin-top: 40px;
+
 }
+
 
 
 /* subtitle */
@@ -209,17 +229,18 @@ letter-spacing: 2px;
 }
 
 
+
 /* giant background word */
 
 .bg-word {
 
 position: absolute;
 
-top: 50%;
+top: 55%;
 
 left: 0;
 
-font-size: 300px;
+font-size: 240px;
 
 font-weight: 700;
 
@@ -242,7 +263,9 @@ transform: translateY(-50%);
 display: flex;
 flex-direction: column;
 
-gap: 40px;
+gap: 30px;
+
+margin-top: 40px;
 
 position: relative;
 
@@ -251,18 +274,24 @@ z-index: 2;
 }
 
 
+
 /* each item */
 
 .idea {
 
 transition: 0.3s;
 
+padding-top: 10px;
+
+border-top: 1px solid rgba(255,255,255,0.08);
+
 }
+
 
 
 .idea h3 {
 
-font-size: 70px;
+font-size: 60px;
 
 margin: 0;
 
@@ -271,6 +300,7 @@ opacity: 0.3;
 transition: 0.3s;
 
 }
+
 
 
 .idea p {
@@ -288,6 +318,7 @@ transition: 0.3s;
 }
 
 
+
 /* hover sauce */
 
 .idea:hover h3 {
@@ -301,6 +332,6 @@ transform: translateX(20px);
 
 .idea:hover p {
 
-opacity: 0.8;
+opacity: 0.85;
 
 }
