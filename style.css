@@ -142,28 +142,71 @@ margin-bottom: 10px;
 }
 /* ---------- ideology section ---------- */
 
-.ideology {
+.ideology-title {
 
 position: relative;
 
-padding: 150px 80px;
-
-overflow: hidden;
+margin-bottom: 60px;
 
 }
 
 
-.ideology-title {
+/* big ghost word */
+
+.title-bg {
+
+position: absolute;
+
+top: -40px;
+left: 0;
+
+font-size: 160px;
+
+font-weight: 700;
+
+opacity: 0.05;
+
+white-space: nowrap;
+
+pointer-events: none;
+
+}
+
+
+/* main title */
+
+.title-main {
+
+display: block;
 
 font-size: 90px;
 
-margin-bottom: 40px;
+font-weight: 600;
 
-z-index: 2;
-position: relative;
+letter-spacing: 2px;
 
 }
 
+
+/* subtitle */
+
+.title-sub {
+
+display: block;
+
+font-family: "IBM Plex Sans", sans-serif;
+
+font-weight: 200;
+
+font-size: 14px;
+
+opacity: 0.6;
+
+margin-top: 10px;
+
+letter-spacing: 2px;
+
+}
 
 
 /* giant background word */
