@@ -335,3 +335,171 @@ transform: translateX(20px);
 opacity: 0.85;
 
 }
+
+/* ========================= */
+/* MOBILE OPTIMIZATION */
+/* ========================= */
+
+@media (max-width: 768px) {
+
+
+/* general */
+
+body {
+
+font-size: 14px;
+
+}
+
+
+
+/* top bar */
+
+.topbar {
+
+padding: 10px 15px;
+font-size: 12px;
+
+}
+
+
+
+/* hero */
+
+.hero {
+
+padding: 60px 20px;
+
+}
+
+h1 {
+
+font-size: 42px;
+line-height: 1.1;
+
+}
+
+.small {
+
+font-size: 12px;
+
+}
+
+
+
+/* menu */
+
+.menu {
+
+padding: 60px 20px;
+
+}
+
+.menu h2 {
+
+font-size: 48px;
+
+}
+
+
+
+/* ideology section */
+
+.ideology {
+
+padding: 60px 20px;
+
+}
+
+
+.ideology-title {
+
+margin-bottom: 20px;
+padding-top: 0;
+
+}
+
+
+.title-bg {
+
+font-size: 70px;
+
+}
+
+
+.title-main {
+
+font-size: 36px;
+
+}
+
+
+.title-sub {
+
+font-size: 10px;
+
+}
+
+
+
+/* ghost word */
+
+.bg-word {
+
+font-size: 120px;
+
+}
+
+
+
+/* list */
+
+.ideology-list {
+
+gap: 10px;
+
+}
+
+
+.idea h3 {
+
+font-size: 28px;
+
+}
+
+
+.idea p {
+
+font-size: 12px;
+
+}
+
+
+
+/* text sections */
+
+.concept,
+.about {
+
+padding: 40px 20px;
+
+}
+
+
+.concept p,
+.about p {
+
+font-size: 14px;
+
+line-height: 1.5;
+
+}
+
+
+h3 {
+
+font-size: 24px;
+
+}
+
+}
