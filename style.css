@@ -144,33 +144,73 @@ margin-bottom: 10px;
 
 .ideology {
 
-padding: 120px 80px;
+position: relative;
+
+padding: 150px 80px;
+
+overflow: hidden;
 
 }
 
 
 .ideology-title {
 
-font-size: 80px;
+font-size: 90px;
+
 margin-bottom: 40px;
+
+z-index: 2;
+position: relative;
 
 }
 
+
+
+/* giant background word */
+
+.bg-word {
+
+position: absolute;
+
+top: 50%;
+
+left: 0;
+
+font-size: 300px;
+
+font-weight: 700;
+
+opacity: 0.03;
+
+white-space: nowrap;
+
+pointer-events: none;
+
+transform: translateY(-50%);
+
+}
+
+
+
+/* list */
 
 .ideology-list {
 
 display: flex;
 flex-direction: column;
-gap: 20px;
+
+gap: 40px;
+
+position: relative;
+
+z-index: 2;
 
 }
 
 
+/* each item */
+
 .idea {
-
-border-top: 1px solid rgba(255,255,255,0.2);
-
-padding-top: 10px;
 
 transition: 0.3s;
 
@@ -179,11 +219,11 @@ transition: 0.3s;
 
 .idea h3 {
 
-font-size: 50px;
+font-size: 70px;
 
 margin: 0;
 
-opacity: 0.4;
+opacity: 0.3;
 
 transition: 0.3s;
 
@@ -198,18 +238,19 @@ font-weight: 200;
 
 opacity: 0;
 
-max-width: 600px;
+margin-top: 5px;
 
 transition: 0.3s;
 
 }
 
 
-/* hover effect */
+/* hover sauce */
 
 .idea:hover h3 {
 
 opacity: 1;
+
 transform: translateX(20px);
 
 }
