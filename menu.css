@@ -1,0 +1,65 @@
+body {
+
+    margin: 0;
+    background: black;
+    color: white;
+
+    font-family: Space Grotesk;
+
+    display: flex;
+}
+
+
+/* left */
+
+.left {
+
+    width: 40%;
+
+    padding: 60px;
+
+    font-family: "IBM Plex Serif", serif;
+
+    opacity: 0.8;
+
+}
+
+.small {
+
+    font-size: 14px;
+    opacity: 0.6;
+
+}
+
+
+
+/* right */
+
+.right {
+
+    width: 60%;
+
+    padding: 60px;
+
+}
+
+
+.item {
+
+    font-size: 120px;
+
+    opacity: 0.2;
+
+    transition: 0.3s;
+
+    cursor: pointer;
+
+}
+
+
+.item:hover {
+
+    opacity: 1;
+    transform: translateX(20px);
+
+}
