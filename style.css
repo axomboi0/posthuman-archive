@@ -94,6 +94,22 @@ transform: translateX(40px);
 
 }
 
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu a:visited {
+    color: white;
+}
+
+.menu a:hover {
+    color: white;
+}
+
+.menu a:active {
+    color: white;
+}
 
 
 /* ---------- text sections ---------- */
