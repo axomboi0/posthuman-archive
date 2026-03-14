@@ -1,43 +1,137 @@
 body {
+
     margin: 0;
     background: black;
     color: white;
+
     font-family: "Space Grotesk", sans-serif;
+
 }
 
-.container {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
 
-.top {
+/* top bar */
+
+.topbar {
+
     display: flex;
     justify-content: space-between;
     padding: 20px 40px;
+
     font-size: 14px;
-    opacity: 0.7;
+    opacity: 0.6;
+
 }
 
-.main {
+
+/* hero */
+
+.hero {
+
     display: flex;
     align-items: center;
-    justify-content: center;
+
     gap: 40px;
+
+    padding: 100px 80px;
+
 }
+
 
 .arrow {
-    font-size: 40px;
+
+    font-size: 50px;
+    opacity: 0.7;
+
 }
+
+
+.small {
+
+    font-size: 14px;
+    opacity: 0.6;
+    margin-bottom: 10px;
+
+}
+
 
 h1 {
-    font-size: 80px;
-    line-height: 1.1;
-    font-weight: 400;
+
+    font-size: 90px;
+    font-weight: 600;
+    line-height: 1.05;
+
 }
 
-.author {
+
+.credit {
+
     margin-top: 20px;
+
+    font-family: "IBM Plex Serif", serif;
+
+    font-size: 14px;
     opacity: 0.6;
+
+}
+
+
+
+/* menu */
+
+.menu {
+
+    padding: 120px 80px;
+
+}
+
+
+.menu h2 {
+
+    font-size: 120px;
+
+    margin: 0;
+
+    opacity: 0.3;
+
+    transition: 0.3s;
+
+}
+
+
+.menu h2:hover {
+
+    opacity: 1;
+
+}
+
+
+
+/* about */
+
+.about {
+
+    padding: 120px 80px;
+
+    max-width: 900px;
+
+}
+
+
+.about h3 {
+
+    font-size: 40px;
+
+}
+
+
+.about p {
+
+    font-family: "IBM Plex Serif", serif;
+
+    font-size: 18px;
+
+    line-height: 1.7;
+
+    opacity: 0.8;
+
 }
